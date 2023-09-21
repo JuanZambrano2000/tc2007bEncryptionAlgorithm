@@ -1,0 +1,14 @@
+/* Navbar.module.css */
+
+.nav-link {
+    /* Default link styles */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transition for color change */
+  }
+  
+  .nav-link:hover {
+    /* Styles when hovering */
+    color: darkgray; /* Change the color when hovering */
+  }
+  
