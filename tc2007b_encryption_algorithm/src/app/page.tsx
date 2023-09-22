@@ -314,10 +314,10 @@ export default function Home() {
       <footer className="bg-gray-800 p-4 text-center">
         <div className="text-white">
           <h3 className="text-xl mb-2">Team Members</h3>
-          <h4 className="text-medium mb-2">Diego Cabrera</h4>
-          <h4 className="text-medium mb-2">Stefano Herrejon</h4>
-          <h4 className="text-medium mb-2">Fabian Lioner</h4>
-          <h4 className="text-medium mb-2">Juan Zambrano</h4>
+          <h4 className="text-medium mb-2">Diego Sebastián García Cabrera A01634071@tec.mx</h4>
+          <h4 className="text-medium mb-2">Stefano Herrejon Antuñano A00571720@tec.mx</h4>
+          <h4 className="text-medium mb-2">Edgar Fabian Lioner Rocha A01633776@tec.mx</h4>
+          <h4 className="text-medium mb-2">Juan Pablo Zambrano Barajas A01636420@tec.mx</h4>
         </div>
       </footer>
     </div>
