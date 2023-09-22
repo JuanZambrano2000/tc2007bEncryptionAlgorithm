@@ -20,36 +20,13 @@ export default function Home() {
            a 5-minute presentation of the design and a working demonstration of the program, which should include at least two diffusion 
            operations and two confusion operations to ensure the algorithm's robustness and utility in symmetric encryption.
           </p>
-          
-          {/* Plain Text Field */}
-          <div className="text-lg my-4">
-            <p className="mb-2">Plain Text:</p>
-            <textarea
-              className="w-full h-24 px-16 border rounded-lg text-black focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Enter plain text here..."
-            ></textarea>
-            <p className="mb-2">Encryption key:</p>
-            <textarea
-              className="w-mid h-12 px-4 border rounded-lg text-black focus:outline-none focus:ring focus:border-blue-300"
-              placeholder="Enter plain text here..."
-            ></textarea>
-          {/* Encrypted Text Field */}
-            <div className="text-lg my-4">
-              <p className="mb-2">Encrypted Text:</p>
-              <textarea
-                className="w-full h-24 px-16 border rounded-lg text-black focus:outline-none focus:ring focus:border-blue-300"
-                placeholder="Enter encrypted text here..."
-              ></textarea>
-              {/* Buttons Container */}
-              <div className="flex justify-center py-4 px-8 mt-4">
-                <button className="bg-green-500 text-white py-3 px-8 rounded-full hover:bg-green-600 transition duration-300 mr-4">
-                  Encrypt
-                </button>
-                <button className="bg-red-500 text-white py-3 px-8 rounded-full hover:bg-red-600 transition duration-300 ml-4">
-                  Decrypt
-                </button>
-              </div>
-            </div>
+          <div className="flex justify-center"> {/* Added 'flex justify-center' class here */}
+            <iframe
+              width="560"
+              height="315"
+              src="https://replit.com/@StefanoHA/Encryption?embed=1"
+              title="YouTube video player"
+            ></iframe>
           </div>
         </div>
       </main>
